@@ -10,7 +10,7 @@ import javax.swing.JScrollPane;
 
 /**
  *
- * @author Ivo
+ * @author AndorinhaViril
  */
 public class Bnotas extends JFrame {
 
@@ -25,7 +25,6 @@ public class Bnotas extends JFrame {
     private int teclaPressionada = -1;
 
     //private static Bnotas janelaAcess;
-    // Hue a;
     public static Funcoes f = new Funcoes();
 
     Bnotas() {
@@ -97,10 +96,10 @@ public class Bnotas extends JFrame {
         //janela.pack(); << define o tamanho automáticamente //n recomendavel no caso
         this.setVisible(true);
     }
-
+    /*
     public class Hue extends Thread {
 
-        /* boolean rodando = true;
+         boolean rodando = true;
         
         public void mata() {
         rodando = false;
@@ -122,8 +121,8 @@ public class Bnotas extends JFrame {
         ex.getMessage();
         }
         }
-        }*/
-    }
+        }
+    }*/
 
     public static void main(String[] args) {
         Bnotas janela = new Bnotas();
