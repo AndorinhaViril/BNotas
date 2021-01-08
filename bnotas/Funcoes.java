@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Ivo
+ * @author AndorinhaViril
  */
 public class Funcoes {
 
